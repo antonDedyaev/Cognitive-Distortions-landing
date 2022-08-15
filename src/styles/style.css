@@ -5,3 +5,35 @@
 
   color: #fff;
 }
+
+h1 {
+  font-size: 72px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+h1, h2, h3 {
+  font: Neucha;
+
+  line-height: 1.2em;
+}
+
+header {
+  background: #F5F4F0;
+}
+
+nav {
+  background: #42413c;
+}
+
+section p {
+  width: 1110px;
+  padding: 100px 0 100px;
+  align-content: center;
+}
