@@ -208,6 +208,10 @@ footer {
   height: auto;
 }
 
+.nav-card h3 {
+  margin-bottom: 16px;
+}
+
 .contact-info-block p {
   margin-bottom: 16px;
 }
