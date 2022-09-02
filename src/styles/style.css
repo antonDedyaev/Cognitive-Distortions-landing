@@ -205,7 +205,7 @@ footer {
 .nav-title,
 .nav-card {
   width: 350px;
-  height: 348px;
+  height: auto;
 }
 
 .contact-info-block p {
