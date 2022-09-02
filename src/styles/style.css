@@ -1,11 +1,12 @@
 /** CSS STYLE **/
 @font-face {
-  font-family: 'Open Sans';
-  src: url("./fonts/OpenSans/OpenSans-Regular.ttf")
+  font-family: "Open Sans";
+  src: url("./fonts/OpenSans/OpenSans-Regular.ttf");
 }
+
 @font-face {
-  font-family: 'Neucha';
-  src: url("./fonts/Neucha-Regular.ttf")
+  font-family: Neucha;
+  src: url("./fonts/Neucha-Regular.ttf");
 }
 
 :root {
@@ -26,12 +27,12 @@
 }
 
 body {
-  font-family: 'Open Sans';
+  color: var(--dark);
+
   font-size: 16px;
+  font-family: "Open Sans", sans-serif;
 
   line-height: 1.6em;
-
-  color: var(--dark);
 }
 
 main {
@@ -54,13 +55,16 @@ h3 {
   font-size: 34px;
 }
 
-h1, h2, h3 {
-  font-family: 'Neucha';
+h1,
+h2,
+h3 {
+  color: #2a2626;
+
   font-weight: 400;
 
-  line-height: 1.2em;
+  font-family: Neucha, sans-serif;
 
-  color: #2A2626;
+  line-height: 1.2em;
 }
 
 header,
@@ -85,23 +89,26 @@ footer {
 
 .container {
   position: relative;
-  padding: 100px 0;
+
   width: 1110px;
+
+  padding: 100px 0;
 }
 
 .info-block::before {
   position: absolute;
+
   display: flex;
   width: 100%;
   height: 100%;
 
-  background-image: url('../media/background.png');
+  background-image: url("../media/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 
-  content: '';
-
   opacity: 0.1;
+
+  content: "";
 }
 
 .text-orange {
@@ -109,7 +116,7 @@ footer {
 }
 
 .text-white {
-  color: var(--white)
+  color: var(--white);
 }
 
 .text-brown {
@@ -119,15 +126,17 @@ footer {
 .main-img {
   position: absolute;
 
-  height: 525px;
   top: 55px;
   right: -270px;
+
+  height: 525px;
 
   margin: 0;
 }
 
 .col-text {
   position: relative;
+
   display: flex;
 
   column-gap: 30px;
@@ -150,8 +159,9 @@ footer {
   display: block;
   width: max-content;
 
-  padding: 12px 24px;
   margin-top: 40px;
+
+  padding: 12px 24px;
 
   font-weight: 700;
 
@@ -162,35 +172,44 @@ footer {
 }
 
 .btn:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
 
 .video {
   position: relative;
+
   margin-top: 30px;
   margin-bottom: -200px;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 15%));
 }
 
 #navigation {
   width: 100%;
+
   background-color: var(--main-dark);
 }
 
 .nav-tabs {
-  margin-top: 100px;
   display: flex;
+
   flex-wrap: wrap;
 
-  justify-content: center;
-  
   gap: 20px 30px;
+
+  justify-content: center;
+
+  margin-top: 100px;
 }
 
 .nav-title,
 .nav-card {
   width: 350px;
   height: 348px;
+}
+
+.contact-info-block p {
+  margin-bottom: 16px;
 }
 
 .nav-card:hover {
@@ -209,10 +228,10 @@ footer {
   color: var(--white);
 }
 
-
 .nav-title h2 {
-  font-size: 52px;
   color: var(--white);
+
+  font-size: 52px;
 }
 
 .nav-section {
@@ -224,13 +243,16 @@ footer {
   flex-direction: column;
 
   padding: 24px;
-  text-decoration: none;
+
   color: var(--dark);
+
+  text-decoration: none;
 }
 
 .number {
   margin-bottom: 40px;
-  font: 64px 'Neucha';
+
+  font: 64px Neucha, sans-serif;
 
   line-height: 1;
 }
@@ -243,22 +265,24 @@ footer {
   display: flex;
 
   column-gap: 30px;
-
 }
 
 .title-small-dark {
-  font: 400 24px 'Neucha';
   color: var(--transparent-dark);
+
+  font: 400 24px Neucha, sans-serif;
 }
 
 .title-small-light {
-  font: 400 24px 'Neucha';
   color: var(--transparent-white);
+
+  font: 400 24px Neucha, sans-serif;
 }
+
 .explanation-text {
   margin-top: 30px;
 
-  font: 400 34px 'Neucha';
+  font: 400 34px Neucha, sans-serif;
 }
 
 .secondary-title {
@@ -280,48 +304,52 @@ footer {
 .secondary-title h4 {
   margin: 5px 0 5px 10px;
 
-  font-size: 14px;
   font-weight: 700;
+  font-size: 14px;
 }
 
 .premature-tab,
 .depreciation-tab {
   width: 100%;
+
   background-color: var(--brown);
 }
 
 footer {
   width: 100%;
+
   background-color: var(--white);
 }
 
 footer::before {
   position: absolute;
 
-  height: 100%;
   width: 100%;
+  height: 100%;
 
   background-color: var(--white);
 
-  content: '';
+  content: "";
 }
 
 .email-header {
-  font-size: 18px;
   padding-bottom: 9px;
+
+  font-size: 18px;
 }
 
 .input-col {
   position: relative;
+
   display: flex;
   flex-direction: column;
- 
 }
 
 .footer-form {
-  height: 190px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+
+  height: 190px;
 
   padding: 0 55px;
 }
@@ -331,11 +359,11 @@ footer::before {
   flex-direction: row;
 }
 
-
 input[type="text"] {
   width: 400px;
   height: 50px;
   padding-left: 15px;
+
   border: none;
 }
 
@@ -343,20 +371,21 @@ input[type="text"] {
   position: relative;
 
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
-  height: 50px;
   width: 70px;
+  height: 50px;
+
+  background-color: var(--main-color);
 
   border: none;
-  background-color: var(--main-color);
 }
 
 .agreement-clause {
   margin-top: 0;
-  font-size: 12px;
 
+  font-size: 12px;
 }
 
 .contact-info-block {
@@ -365,8 +394,4 @@ input[type="text"] {
   font-size: 14px;
 
   text-align: center;
-}
-
-.contact-info-block p {
-  margin-bottom: 16px;
 }
