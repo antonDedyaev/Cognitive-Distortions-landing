@@ -386,6 +386,21 @@ input[type="text"] {
   border: none;
 }
 
+.btn-submit::before {
+  position: absolute;
+
+  display: flex;
+
+  width: 20px;
+  height: 20px;
+
+  background-image: url("../media/send.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  content: "";
+}
+
 .agreement-clause {
   margin-top: 0;
 
