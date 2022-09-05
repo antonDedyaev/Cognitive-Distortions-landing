@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/hexlet-boilerplates/html-boilerplate.git"
   },
-  "main": "",
+  "main": "antonnewby-layout-lvl1.surge.sh",
   "devDependencies": {
     "htmlhint": "^1.1.0",
     "stylelint": "^14.2.0",
